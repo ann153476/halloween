@@ -5,14 +5,14 @@
   border-radius: 50%;
   background-color: #fff;
 
-  animation: animate 1s ease infinite;
+  animation: stars 1s ease infinite;
 }
-@keyframes animate {
+@keyframes stars {
   0% {
     background-color: #fff;
   }
   50% {
-    background-color: #fbff00;
+    background-color: #2fff00;
   }
   100% {
     background-color: transparent;
