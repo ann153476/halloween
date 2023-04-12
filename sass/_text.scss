@@ -1,0 +1,19 @@
+.text {
+  position: relative;
+  color: white;
+}
+.text h2 {
+  font-size: 30px;
+  padding: 90px 0 20px;
+  text-align: center;
+}
+.text p {
+  font-size: 10px;
+  line-height: 1.7;
+  padding: 5% 10%;
+  font-weight: 300;
+  text-align: justify;
+  @media screen and (min-width: 767.5px) {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,49 @@
+.parallax {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: url("../img/background.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#text {
+  position: absolute;
+  font-size: 4em;
+  color: #1d283a;
+  text-shadow: 2px 4px 5px #f9f9f9;
+}
+.parallax img {
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+#grass,
+#gate-left,
+#gate-right {
+  bottom: 0;
+}
+#gate-left {
+  left: 0;
+}
+#gate-right {
+  right: 0;
+}
+#gate-right,
+#gate-left {
+  @media screen and (min-width: 767.5px) {
+    width: 80%;
+  }
+}
+#tree-left,
+#tree-right {
+  top: 0;
+  @media screen and (max-width: 767.5px) {
+    height: 100%;
+    object-fit: contain;
+  }
+}
