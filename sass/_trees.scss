@@ -1,0 +1,46 @@
+.trees img {
+  position: absolute;
+  bottom: 0;
+  width: 20%;
+  object-fit: contain;
+}
+#t1 {
+  left: -30%;
+  width: 50%;
+  z-index: 1;
+}
+#t2 {
+  left: 0;
+  width: 40%;
+}
+#t3 {
+  left: 15%;
+  width: 30%;
+  z-index: -1;
+}
+#t4 {
+  left: 45%;
+  width: 30%;
+}
+#t5 {
+  width: 15%;
+  left: 25%;
+}
+#t6 {
+  width: 40%;
+  right: 10%;
+}
+#t7 {
+  right: -20%;
+  width: 70%;
+}
+#t8 {
+  left: 35%;
+  width: 20%;
+  z-index: -1;
+}
+#t9 {
+  right: 0;
+  width: 30%;
+  z-index: -1;
+}

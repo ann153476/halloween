@@ -1,0 +1,17 @@
+.body__gradient {
+  background-image: linear-gradient(#1d283a, white);
+  height: 200vh;
+  position: relative;
+}
+.grass1 {
+  width: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.grass2 {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
