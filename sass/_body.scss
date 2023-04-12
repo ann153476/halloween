@@ -3,16 +3,19 @@
   height: 200vh;
   width: 100%;
   position: relative;
+  overflow-x: hidden;
 }
 .grass1 {
   width: 50%;
   position: absolute;
   left: 0;
   bottom: 0;
+  z-index: 100;
 }
 .grass2 {
   width: 50%;
   position: absolute;
   right: 0;
   bottom: 0;
+  z-index: 100;
 }
