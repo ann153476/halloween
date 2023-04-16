@@ -312,6 +312,14 @@ header {
   bottom: 0;
 }
 
+.text__tree {
+  color: #fff;
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  font-size: 20px;
+}
+
 #t1 {
   left: -40%;
   width: 80%;
@@ -379,5 +387,99 @@ header {
   #t8 {
     left: 40%;
     width: 15%;
+  }
+}
+
+.batboo {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 80%;
+  z-index: 10;
+  scale: 0;
+}
+
+.boo {
+  -webkit-animation: boo 3s ease;
+          animation: boo 3s ease;
+}
+
+@-webkit-keyframes boo {
+  0% {
+    scale: 0;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+@keyframes boo {
+  0% {
+    scale: 0;
+  }
+  100% {
+    scale: 1;
+  }
+}
+.pum_box > img {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.pumpkins {
+  bottom: 0;
+  width: 80%;
+}
+
+.pumpkin {
+  z-index: 1;
+  bottom: 10%;
+  width: 70%;
+}
+@media screen and (min-width: 767.5px) {
+  .pumpkin {
+    bottom: 25%;
+  }
+}
+
+.y-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid rgb(0, 0, 0);
+  position: relative;
+  float: left;
+}
+
+.y-2 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  left: 70px;
+  bottom: 35px;
+  border-radius: 50%;
+}
+
+.bac {
+  position: absolute;
+  bottom: 15%;
+  left: 25%;
+  width: 48%;
+  height: 10%;
+  border-radius: 50%;
+  background-color: rgb(49, 1, 1);
+  z-index: -1;
+}
+@media screen and (min-width: 767.5px) {
+  .bac {
+    width: 500px;
+    height: 300px;
+    left: 30%;
+    bottom: 45%;
   }
 }/*# sourceMappingURL=main.css.map */
